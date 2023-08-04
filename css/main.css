@@ -1,0 +1,12 @@
+.custom-btn-bg {
+    background-color: #FDF6ED;
+    border-radius: 20px; 
+    padding: 5px 20px; 
+    margin: 5px;
+}
+.logo-container{
+    max-width: 100px;
+}
+body{
+    font-family: 'Unna', serif;
+}
