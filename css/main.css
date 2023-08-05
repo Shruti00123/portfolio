@@ -10,3 +10,27 @@
 body{
     font-family: 'Unna', serif;
 }
+.main-container{
+    background-color: #FDF6ED;
+    max-width: 100%;
+}
+.container{
+    background-color: #f9e5e8;
+    max-width: 100%;
+}
+.btn-custom {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color:#F4C5CC;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color:#323B60;
+    color: #FDF6ED;
+}
