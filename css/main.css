@@ -1,7 +1,7 @@
 .custom-btn-bg {
     background-color: #FDF6ED;
-    border-radius: 20px; 
-    padding: 5px 20px; 
+    border-radius: 5px; 
+    padding: 5px 35px; 
     margin: 5px;
 }
 .logo-container{
@@ -15,7 +15,7 @@ body{
     max-width: 100%;
 }
 .container{
-    background-color: #f9e5e8;
+    background-color: #fcf1f2;
     max-width: 100%;
 }
 .btn-custom {
@@ -34,3 +34,8 @@ body{
     background-color:#323B60;
     color: #FDF6ED;
 }
+.navbar-toggler{
+    color: bisque;
+    background-color: beige;
+}
+
