@@ -1,3 +1,8 @@
+.bg{
+    background-image: url(../images/header\ background.jpg);
+    background-size: cover;
+    background-position: no-repeat;
+}
 .custom-btn-bg {
     background-color: #FDF6ED;
     border-radius: 5px; 
