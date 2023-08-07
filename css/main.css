@@ -6,7 +6,7 @@
 .custom-btn-bg {
     background-color: #FDF6ED;
     border-radius: 5px; 
-    padding: 5px 35px; 
+    padding: 5px 500px; 
     margin: 5px;
 }
 .logo-container{
@@ -24,13 +24,13 @@ body{
     max-width: 100%;
 }
 .btn-custom {
+    border-radius: 20px;
     display: inline-block;
     padding: 0.5rem 1rem;
     background-color:#F4C5CC;
     color:black;
     font-size: 20px;
     font-weight: bold;
-    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -41,6 +41,13 @@ body{
 }
 .navbar-toggler{
     color: bisque;
-    background-color: beige;
+    background-color: #FDF6ED;
 }
-
+.footer{
+    background-color: #323B60;
+    color: #FDF6ED
+}
+h1{
+    background-color: #323B60;
+    color: #FDF6ED;
+}
