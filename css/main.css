@@ -54,3 +54,7 @@ h1{
 .about-container{
     background-color: #FDF6ED;
 }
+.animate__animated animate__fadeIn{
+    animation-duration: 0.5s;
+    animation-delay: 5s;
+}

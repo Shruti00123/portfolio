@@ -10,13 +10,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Unna:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
- 
-    <div class="container-fluid">
-      <header class="bg">
+
+  <div class="container-fluid">
+    <header class="bg">
       <div class="row align-items-center">
         <!-- Logo image -->
         <div class="col-6 col-md-2">
@@ -47,18 +48,20 @@
           </nav>
         </div>
       </div>
-    </div>
+  </div>
   </header>
   <div class="main-container">
     <div class="container">
       <div class="row align-items-center">
         <!-- Image on the left corner -->
-        <div class="col-md-5 mb-3 mt-4">
-          <img src="images/myimage.jpg" alt="my image" class="img-fluid">
+        <div class="col-md-5 mb-3 mt-4 ">
+          
+            <img src="images/myimage.jpg " alt="my image" class="img-fluid animate__animated animate__fadeIn">
+         
         </div>
         <!-- Text on the right -->
         <div class="col-md-7 order-md-2 text-right justify-content-center">
-          <p class="mb-0 display-6" font-weight-bold>Hi, I am Shruti,</p>
+          <p class="mb-0 display-6 animate__animated animate__zoomIn " font-weight-bold>Hi, I am Shruti,</p>
           <br>
           <p class="fs-5 flex-sm-shrink-1 mt-4">Welcome to my design Portfolio,
             I am a designer based in Ottawa passionate about web designing and digital graphics. I believe in crafting
@@ -113,7 +116,8 @@
           <p class="fs-5 mt-5 " flex-sm-shrink-1>
             These are some of my projects that I have created using Photoshop and Illustrator. The first project shown
             here is vector art
-            that I have created using Illustrator techniques. Next is a digital art made in Illustrator. Then, I have amde a project of a movie poster using Photoshop
+            that I have created using Illustrator techniques. Next is a digital art made in Illustrator. Then, I have
+            amde a project of a movie poster using Photoshop
             techniques. I believe
             that every design should tell a story. Photoshop is a very interesting software and with its vast array of
             powerful features and
@@ -199,46 +203,49 @@
     </div>
     <div class="container col-lg-8">
       <form>
-          <div class="row">
-              <div class="col-md-6">
-                  <div class="form-group">
-                      <label for="name" class="fw-bold fs-4">Name</label>
-                      <input type="text" class="form-control border-dark-subtle" id="name" placeholder="Enter your name" required>
-                  </div>
-              </div>
-              <div class="col-md-6">
-                  <div class="form-group">
-                      <label for="email" class="fw-bold fs-4">Email</label>
-                      <input type="email" class="form-control border-dark-subtle" id="email" placeholder="Enter your email" required>
-                  </div>
-              </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="name" class="fw-bold fs-4">Name</label>
+              <input type="text" class="form-control border-dark-subtle" id="name" placeholder="Enter your name"
+                required>
+            </div>
           </div>
-          <div class="form-group">
-              <label for="message" class="fw-bold fs-4">Message</label>
-              <textarea class="form-control border-dark-subtle" id="message" rows="5" placeholder="Enter your message" required></textarea>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email" class="fw-bold fs-4">Email</label>
+              <input type="email" class="form-control border-dark-subtle" id="email" placeholder="Enter your email"
+                required>
+            </div>
           </div>
-          <div class="text-center mt-4 mb-4">
+        </div>
+        <div class="form-group">
+          <label for="message" class="fw-bold fs-4">Message</label>
+          <textarea class="form-control border-dark-subtle" id="message" rows="5" placeholder="Enter your message"
+            required></textarea>
+        </div>
+        <div class="text-center mt-4 mb-4">
           <button type="submit" class="btn btn-custom">Submit</button>
         </div>
       </form>
-  </div>
-  <!-- Footer -->
-  <footer class="footer text-white py-4">
-    <div class="container-fluid">
-        <div class="row flex-column align-items-center">
-           
-            <div class="col-12 text-center mb-3">
-                <a href="#" class="text-white me-5 fw-bold fs-5 text-decoration-none">LinkedIn</a>
-                <a href="#" class="text-white me-5 fw-bold fs-5 text-decoration-none">Instagram</a>
-                <a href="#" class="text-white me-5 fw-bold fs-5 text-decoration-none">Email</a>
-            </div>
-            <!-- Copyright information on the right corner -->
-            <div class="col-12 col-md-6">
-                &copy; 2023 Shruti Sood
-            </div>
-        </div>
     </div>
-</footer>
+    <!-- Footer -->
+    <footer class="footer text-white py-4">
+      <div class="container-fluid">
+        <div class="row flex-column align-items-center">
+
+          <div class="col-12 text-center mb-3">
+            <a href="#" class="text-white me-5 fw-bold fs-5 text-decoration-none">LinkedIn</a>
+            <a href="#" class="text-white me-5 fw-bold fs-5 text-decoration-none">Instagram</a>
+            <a href="#" class="text-white me-5 fw-bold fs-5 text-decoration-none">Email</a>
+          </div>
+          <!-- Copyright information on the right corner -->
+          <div class="col-12 col-md-6">
+            &copy; 2023 Shruti Sood
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
 
