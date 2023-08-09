@@ -23,6 +23,14 @@ body{
     background-color: #fcf1f2;
     max-width: 100%;
 }
+.main-container-contact{
+ background-image: url(../images/shruti-designs.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: auto;
+ background-color:#FDF6ED ;
+}
+
 .btn-custom {
     border-radius: 20px;
     display: inline-block;
