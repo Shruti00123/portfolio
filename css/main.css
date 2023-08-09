@@ -27,7 +27,7 @@ body{
  background-image: url(../images/shruti-designs.jpg);
  background-repeat: no-repeat;
  background-position: center;
- background-size: cover;
+ background-size:auto;
  background-color:#FDF6ED ;
 }
 @media (max-width: 768px) {
