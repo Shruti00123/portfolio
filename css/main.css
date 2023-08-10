@@ -73,3 +73,13 @@ h1{
     animation-duration: 0.5s;
     animation-delay: 5s;
 }
+/* styles for skip link */
+.skip-link {
+    position: absolute;
+    left: 48%;
+    padding: 5px 5px;
+    font-size: 1rem;
+    background-color:#323B60;
+    color:#FDF6ED;
+    text-decoration: none;
+}

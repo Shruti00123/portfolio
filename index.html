@@ -15,6 +15,8 @@
 </head>
 
 <body>
+  <!--Skip link for accessibility-->
+  <a href="#maincontent" class="skip-link">Skip to main content</a>
 
   <div class="container-fluid">
     <header class="bg">
@@ -27,7 +29,7 @@
         </div>
         <!-- Navigation using Bootstrap class -->
         <div class="col-6 col-md-10 d-flex justify-content-end">
-          <nav class="navbar navbar-expand-md">
+          <nav class="navbar navbar-expand-md" role="navigation" id="nav-skip">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
               aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -56,7 +58,7 @@
         <!-- Image on the left corner -->
         <div class="col-md-5 mb-3 mt-4 ">
           
-            <img src="images/myimage.jpg " alt="my image" class="img-fluid animate__animated animate__fadeIn">
+            <img src="images/myimage.jpg " class="d-block w-100" alt="my image" class="img-fluid animate__animated animate__fadeIn">
          
         </div>
         <!-- Text on the right -->
@@ -79,6 +81,7 @@
       </div>
       <hr>
     </div>
+    <main role="main" id="maincontent">
     <h1 class="display-6 text-center fw-bold">My Work</h1>
     <div class="container2">
 
@@ -88,19 +91,35 @@
           <div id="carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/graphics1.jpg" class="d-block w-100" alt="...">
+                <img src="images/graphics-1.jpg" srcset="images/graphics-1-600.jpg 640w,
+                                     images/graphics-1-900.jpg 900w,
+                                     images/graphics-1-1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+                                    (max-width: 1200px) 900px,1200px"class="d-block w-100" alt="graphics image of a girl">
               </div>
               <div class="carousel-item">
-                <img src="images/digitalgraphics.jpg" class="d-block w-100" alt="...">
+                <img src="images/digitalgraphics.jpg" srcset="images/digitalgraphics-600.jpg 640w,
+                images/digitalgraphics-900.jpg 900w,
+                images/digitalgraphics-1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+               (max-width: 1200px) 900px,1200px"class="d-block w-100" alt="digital graphics image">
               </div>
               <div class="carousel-item">
-                <img src="images/shruti-designs.jpg" class="d-block w-100" alt="...">
+                <img src="images/shruti-designs.jpg" srcset="images/shruti-designs-600
+                .jpg 640w,
+                images/shruti-designs-900.jpg 900w,
+                images/shruti-designs-1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+               (max-width: 1200px) 900px,1200px"class="d-block w-100" alt="Design logo image">
               </div>
               <div class="carousel-item">
-                <img src="images/photoshop.jpg" class="d-block w-100" alt="...">
+                <img src="images/photoshop.jpg" srcset="images/phototshop600.jpg 640w,
+                images/photoshop900.jpg 900w,
+                images/photoshop1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+               (max-width: 1200px) 900px,1200px"class="d-block w-100" alt="photoshop movie poster">
               </div>
               <div class="carousel-item">
-                <img src="images/graphics2.jpg" class="d-block w-100" alt="...">
+                <img src="images/graphics2.jpg" srcset="images/graphics2-600.jpg 640w,
+                images/graphics2-900.jpg 900w,
+                images/graphics2-1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+               (max-width: 1200px) 900px,1200px"class="d-block w-100" alt="vector graphics image">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -138,7 +157,9 @@
       <div class="row mx-4">
         <!-- Image on the top (col-md-6) -->
         <div class="col-md-6 order-md-1">
-          <img src="images/website.jpg" alt="Image" class="img-fluid">
+          <img src="images/website.jpg" srcset="images/website900.jpg 900w,
+          images/website1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+         (max-width: 1200px) 900px,1200px" alt="website prototype image" class="img-fluid">
         </div>
         <!-- Text below the image on the mobile (col-md-6) -->
         <div class="col-md-6 py-5 order-md-0">
@@ -162,13 +183,24 @@
           <div id="carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="images/photography.jpg" class="d-block w-100" alt="...">
+                <img src="images/photography.jpg" srcset="images/photography900.jpg 900w,
+                images/photography1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+               (max-width: 1200px) 900px,1200px"class="d-block w-100" alt="photography image">
               </div>
               <div class="carousel-item">
-                <img src="images/photography2.jpg" class="d-block w-100" alt="...">
+                <img src="images/photography2.jpg" srcset="images/photography2-900.jpg 900w,
+                images/photography2-1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+               (max-width: 1200px) 900px,1200px"class="d-block w-100" alt="photography image">
               </div>
               <div class="carousel-item">
-                <img src="images/photography4.jpg" class="d-block w-100" alt="...">
+                <img src="images/photography4.jpg" srcset="images/photography4-900.jpg 900w,
+                images/photography4-1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+               (max-width: 1200px) 900px,1200px"class="d-block w-100" alt="photography image">
+              </div>
+              <div class="carousel-item">
+                <img src="images/photography3.jpg" srcset="images/photography3-900.jpg 900w,
+                images/photography3-1200.jpg 1200w" sizes="(max-width: 900px) 640px,
+               (max-width: 1200px) 900px,1200px"class="d-block w-100" alt="photography image">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -230,6 +262,12 @@
         </div>
       </form>
     </div>
+
+    <!--skip link to go back to top-->
+    <a href="#nav-skip" class="skip-link">Go back to top</a>
+  </main>
+  <hr>
+  <br>
     <!-- Footer -->
     <footer class="footer text-white py-4">
       <div class="container-fluid">
