@@ -1,24 +1,30 @@
+/* header background image styles */
 .bg{
     background-image: url(../images/header\ background.jpg);
     background-size: cover;
     background-position: no-repeat;
 }
+/* custom button styles */
 .custom-btn-bg {
     background-color: #FDF6ED;
     border-radius: 5px; 
     padding: 5px 20px; 
     margin: 5px;
 }
+/* logo container max width */
 .logo-container{
     max-width: 100px;
 }
+/* body font family changes */
 body{
     font-family: 'Unna', serif;
 }
+/* main-container styles */
 .main-container{
     background-color: #FDF6ED;
     max-width: 100%;
 }
+
 .container{
     background-color: #fcf1f2;
     max-width: 100%;
@@ -30,6 +36,7 @@ body{
  background-size:auto;
  background-color:#FDF6ED ;
 }
+/* adding media query to main container in contact page to remove background image */
 @media (max-width: 768px) {
     .main-container-contact{
         background-image: none;
@@ -37,7 +44,7 @@ body{
 }
 }
     
-
+/* custom button styles */
 .btn-custom {
     border-radius: 20px;
     display: inline-block;
@@ -54,10 +61,12 @@ body{
     background-color:#323B60;
     color: #FDF6ED;
 }
+/* navbar styles */
 .navbar-toggler{
     color: bisque;
     background-color: #FDF6ED;
 }
+/* footer styles */
 .footer{
     background-color: #323B60;
     color: #FDF6ED
@@ -66,9 +75,11 @@ h1{
     background-color: #323B60;
     color: #FDF6ED;
 }
+/* adding custom background color to about-container */
 .about-container{
     background-color: #FDF6ED;
 }
+/* changing animation duration */
 .animate__animated animate__fadeIn{
     animation-duration: 0.5s;
     animation-delay: 5s;
