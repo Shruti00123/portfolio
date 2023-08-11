@@ -18,7 +18,7 @@
 
 
     <div class="container-fluid">
-        <header class="bg">
+        <header class="bg" role="banner">
             <div class="row align-items-center">
                 <!-- Logo image -->
                 <div class="col-6 col-md-2">
@@ -28,14 +28,14 @@
                 </div>
                 <!-- Navigation using Bootstrap class -->
                 <div class="col-6 col-md-10 d-flex justify-content-end">
-                    <nav class="navbar navbar-expand-md">
+                    <nav class="navbar navbar-expand-md" role="navigation">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarCollapse">
-                            <ul class="navbar-nav">
+                            <ul class="navbar-nav" role="list">
                                 <li class="nav-item">
                                     <a class="nav-link custom-btn-bg rounded-pill mx-5 fw-bold"
                                         href="index.html">Home</a>
@@ -55,6 +55,7 @@
             </div>
     </div>
     </header>
+    <main role="main">
     <div class="main-container">
         <div class="main-container-contact container-fluid ">
 
@@ -62,20 +63,21 @@
             <div class="form-container mt-5">
                 <div class="row justify-content-center">
                     <div class="col-md-12">
-                        <form>
+                        <form role="form" itemscope
+                        itemtype="https://schema.org/ContactPage" role="form">
                             <div class="form-group">
                                 <label for="name" class="fs-3 fw-bold">Name</label>
-                                <input type="text" class="form-control border-dark-subtle pb-4" id="name"
+                                <input type="text" class="form-control border-dark-subtle pb-4" id="name" name="name" required itemprop="name"
                                     placeholder="Enter your name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email" class="fs-3 fw-bold">Email</label>
-                                <input type="email" class="form-control border-dark-subtle pb-4" id="email"
+                                <input type="email" class="form-control border-dark-subtle pb-4" id="email" name="email" required itemprop="email"
                                     placeholder="Enter your email" required>
                             </div>
                             <div class="form-group">
                                 <label for="message" class="fs-3 fw-bold">Message</label>
-                                <textarea class="form-control border-dark-subtle pb-4" id="message" rows="4"
+                                <textarea class="form-control border-dark-subtle pb-4" id="message" name="message" required itemprop="message" rows="4"
                                     placeholder="Enter your message" required></textarea>
                             </div>
                             <div class=" mt-4 mb-4">
@@ -87,16 +89,16 @@
             </div>
 
 
-
+        </main>
             <!-- Footer -->
-    <footer class="footer text-white py-4">
+    <footer class="footer text-white py-4" role="contentinfo">
         <div class="container-fluid">
           <div class="row flex-column align-items-center">
   
             <div class="col-12 text-center mb-3">
-              <a href="#" class="text-white me-5 fw-bold fs-5 text-decoration-none">LinkedIn</a>
-              <a href="#" class="text-white me-5 fw-bold fs-5 text-decoration-none">Instagram</a>
-              <a href="#" class="text-white me-5 fw-bold fs-5 text-decoration-none">Email</a>
+              <a href="https://www.linkedin.com/in/shruti-sood-38208a230/" class="text-white me-5 fw-bold fs-5 text-decoration-none">LinkedIn</a>
+              <a href="https://www.instagram.com/" class="text-white me-5 fw-bold fs-5 text-decoration-none">Instagram</a>
+              <a href="mailto:soodshruti27@gmail.com" class="text-white me-5 fw-bold fs-5 text-decoration-none">Email</a>
             </div>
             
             <div class="col-12 col-md-6 text-end">
