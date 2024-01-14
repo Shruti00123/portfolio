@@ -1,6 +1,6 @@
 /* header background image styles */
 .bg{
-    background-image: url(../images/header\ background.jpg);
+    background-image: url(../images/bluebanner.jpg);
     background-size: cover;
     background-position: no-repeat;
 }
@@ -23,14 +23,17 @@ body{
 .main-container{
     background-color: #FDF6ED;
     max-width: 100%;
+    background-image: url(../images/vector.jpg);
+    
 }
 
 .container{
-    background-color: #fcf1f2;
+    background-color: #FDF6ED;
+    background-color:;
     max-width: 100%;
 }
 .main-container-contact{
- background-image: url(../images/shruti-designs.jpg);
+ background-image: url(../images/my-logo.jpg);
  background-repeat: no-repeat;
  background-position: center;
  background-size:auto;
