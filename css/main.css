@@ -37,6 +37,7 @@ body{
 .container{
     background-color: #FDF6ED;
     max-width: 100%;
+    background-image: url(../images/vector\ pattern.jpg);
 }
 .main-container-contact{
  background-image: url(../images/my-logo.jpg);
