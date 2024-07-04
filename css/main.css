@@ -151,6 +151,29 @@ h1 {
 .form-group textarea {
     resize: vertical;
 }
+/* Responsive styling */
+@media (max-width: 600px) {
+    .contact-container {
+        width: 90%;
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .contact-heading {
+        font-size: 20px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: calc(100% - 20px);
+        font-size: 14px;
+    }
+
+    .custom-button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
 .footer-banner {
     background-color: #f9eedf; /* Same color as header banner */
     color: #070707; /* Text color */
