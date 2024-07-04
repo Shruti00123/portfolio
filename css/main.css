@@ -21,13 +21,13 @@ body {
 @media (max-width: 600px) {
     .logo-container {
         text-align: center; /* Center the logo horizontally */
-        padding: 20px; /* Add some padding if needed */
+         /* Add some padding if needed */
     }
 
     .logo {
-        width: 100%; /* Make the logo responsive */
-        max-width: 200px; /* Adjust the max-width for mobile */
-        height: 100px; /* Maintain aspect ratio */
+        width: 100%; 
+        max-width: 100px;
+        height: 100px; 
     }
 }
 /* Custom styles for dropdown on hover */
