@@ -63,18 +63,16 @@ h1 {
 .custom-button {
     padding: 10px 20px; 
     font-size: 1.5em; 
-    font-weight: bold; /* Bold font weight */
-    color: #0f0600; /* Blue text color */
-    text-decoration: none; /* Remove underline */
-    border: 2px solid #792108; /* Blue border */
+    font-weight: bold; 
+    color: #0f0600; 
+    text-decoration: none; 
+    border: 2px solid #792108; 
     border-radius: 10px; /* Rounded border corners */
-    transition: all 0.3s ease; /* Smooth transition */
+    transition: all 0.3s ease; 
     margin: 20px auto;
 }
 
-.custom-button:hover,
-.custom-button:focus,
-.custom-button:active {
+.custom-button:hover {
     background-color: #fde8ba; 
     color:#0f0600;
     text-decoration: none; 
@@ -97,8 +95,11 @@ h1 {
     font-weight: 800;
     color: #070707;
     display: inline-block;
-    border-bottom: 1px solid #cf8838;
+    position: relative;
+    border-bottom: 1px solid #cf8838; 
     margin: 0 auto;
+    width: fit-content;
+    text-align: center;
 }
 .card {
     width: 100%;
@@ -487,11 +488,6 @@ h1 {
     position: relative;
     z-index: 2; /* Ensure the text is above the background image */
     color: #0b0000; /* Adjust text color for readability */
-}
-
-.custom-h2 {
-    text-align: center;
-    width: 100%;
 }
 
 .paragraph {
