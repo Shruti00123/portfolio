@@ -14,7 +14,7 @@ body {
 }
 /* Logo styling */
 .logo {
-    width: 100px; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
     height: 100px; /* Maintain aspect ratio */
 }
 /* Custom styles for dropdown on hover */
@@ -162,7 +162,7 @@ h1 {
     }
 
     .contact-heading {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .form-group input,
@@ -170,11 +170,24 @@ h1 {
         width: calc(100% - 20px);
         font-size: 14px;
     }
+    .custom-h2{
+        font-size: 30px;
+    }
 
     .custom-button {
-        font-size: 14px;
+        font-size: 20px;
         padding: 10px;
+        color: #0f0600; 
+        text-decoration: none; 
+        border: 2px solid #792108; 
+        border-radius: 10px; /* Rounded border corners */
+        transition: all 0.3s ease;
+        
     }
+    .heading1{
+        font-size: 35px;
+    }
+    
 }
 .footer-banner {
     background-color: #f9eedf; /* Same color as header banner */
