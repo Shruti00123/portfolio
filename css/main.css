@@ -16,6 +16,19 @@ body {
 .logo {
     width: 100%; /* Adjust the width as needed */
     height: 100px; /* Maintain aspect ratio */
+
+}
+@media (max-width: 600px) {
+    .logo-container {
+        text-align: center; /* Center the logo horizontally */
+        padding: 20px; /* Add some padding if needed */
+    }
+
+    .logo {
+        width: 100%; /* Make the logo responsive */
+        max-width: 200px; /* Adjust the max-width for mobile */
+        height: 100px; /* Maintain aspect ratio */
+    }
 }
 /* Custom styles for dropdown on hover */
 .navbar-nav .dropdown:hover>.dropdown-menu {
