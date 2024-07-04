@@ -1,131 +1,541 @@
-/* header background image styles */
-.bg{
-    background-image: url(../images/bluebanner.jpg);
-    background-size: cover;
-    background-position: no-repeat;
-}
-/* custom button styles */
-.custom-btn-bg {
-    background-color:  #fcf1d2;
-    border-radius: 5px; 
-    padding: 5px 20px; 
-    margin: 5px;
-    color: #020b46;
-}
-
-.custom-btn-bg:hover{
-    background-color: #01042a;
-    color: #fafafa;
-}
-
-/* logo container max width */
-.logo-container{
-    max-width: 100px;
-}
-/* body font family changes */
-body{
-    font-family: 'Unna', serif;
-}
-/* main-container styles */
-.main-container{
-    background-color: #FDF6ED;
-    max-width: 100%;
-    background-image: url(../images/vector.jpg);
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: black;
     
 }
 
-.container{
-    background-color: #FDF6ED;
-    max-width: 100%;
-    background-image: url(../images/vector\ pattern.jpg);
+.banner {
+    background-color: #f9eedf; 
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
 }
-.main-container-contact{
- background-image: url(../images/my-logo.jpg);
- background-repeat: no-repeat;
- background-position: center;
- background-size:auto;
- background-color:#FDF6ED ;
+/* Logo styling */
+.logo {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Maintain aspect ratio */
+}
+/* Custom styles for dropdown on hover */
+.navbar-nav .dropdown:hover>.dropdown-menu {
+    display: block;
+    margin-top: 0; 
 }
 
-.list-group {
-    list-style: none;
-    padding: 0;
+.dropdown-menu {
+    background-color: #f9eedf; /* Match the banner color */
+    border: 1px solid #cf8838; /* Border color */
 }
 
-.list-group-item {
-    background-color: #000306;
-    border: 1px solid #dee2e6;
+.dropdown-item:hover {
+    background-color: #fde8ba; /* Hover background color */
+    color: #070707; /* Hover text color */
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5em;
+    font-weight: 900;
+    font-style: normal;
+    color: #070707;
+}
+
+.banner-image {
+    height: 500px; /* Adjust height as needed */
+    background-image: url('../images/me.png'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+}
+.red-line {
+    border: 0;
+    height: 2px;
+    background-color: #cf8838; /* Yellow color */
+    margin-top: 5px;
+    margin-bottom: 20px; /* Adjust spacing as needed */
+}
+.lead{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    color: #070707;
+}
+.custom-button {
+    padding: 10px 20px; 
+    font-size: 1.5em; 
+    font-weight: bold; /* Bold font weight */
+    color: #0f0600; /* Blue text color */
+    text-decoration: none; /* Remove underline */
+    border: 2px solid #792108; /* Blue border */
+    border-radius: 10px; /* Rounded border corners */
+    transition: all 0.3s ease; /* Smooth transition */
+    margin: 20px auto;
+}
+
+.custom-button:hover,
+.custom-button:focus,
+.custom-button:active {
+    background-color: #fde8ba; 
+    color:#0f0600;
+    text-decoration: none; 
+    outline: none; 
+    box-shadow: 0 0 10px #1e1e1d; 
+}
+
+/* Wrapper for icon and text */
+.icon-wrapper {
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
+
+/* Hover effect to scale up the icon */
+.icon-wrapper:hover {
+    transform: scale(1.5); /* Scale the icon by 1.1 on hover */
+}
+.custom-h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #070707;
+    display: inline-block;
+    border-bottom: 1px solid #cf8838;
+    margin: 0 auto;
+}
+.card {
+    width: 100%;
+    
+    
+}
+.contact-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    border-bottom: 1px solid #cf8838;
+    
+    
+}
+
+.contact-email {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
     margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #cf8838;
+    border-radius: 4px;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.footer-banner {
+    background-color: #f9eedf; /* Same color as header banner */
+    color: #070707; /* Text color */
+    padding: 20px 0;
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+.footer-banner .navbar {
+    margin-bottom: 10px;
+    
+}
+
+.social-icons img {
+    width: 30px; /* Adjust size of LinkedIn icon */
+    height: auto;
+    margin-right: 10px; /* Adjust spacing between icons */
+}
+
+.email a {
+    color: #070707; /* Text color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: black;
+}
+
+.copyright {
+    font-size: 0.9em; /* Adjust font size */
+}
+
+
+
+/*********************graphics page styles**********************/
+
+/* main.css */
+
+.branding-banner {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    overflow: hidden;
+    text-align: center;
+   
+}
+
+.branding-banner-image {
+    width: 60%;
+    height: 100%;
+    
+}
+
+.branding-banner-heading {
+    position: absolute;
+    top: 50%;
+    right: 60%; 
+    transform: translateX(-50%);
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
     border-radius: 5px;
 }
 
-.list-group-item a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    color: #fcfcfc;
-    text-align: center;
+.branding-banner-heading h1 {
+    color: wheat;
+    margin: 0;
+    font-size: 3.5rem; 
 }
-
-.list-group-item:hover {
-    background-color: #007bff;
-    color: #fff;
-}
-/* adding media query to main container in contact page to remove background image */
+/* Responsive styles */
 @media (max-width: 768px) {
-    .main-container-contact{
-        background-image: none;
+    .branding-banner {
+        height: 300px;
+        
+    }
 
+    .branding-banner-image {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .branding-banner-heading {
+        top: 40%;
+        right: 10%; 
+        padding: 5px 10px;
+    }
+
+    .branding-banner-heading h1 {
+        font-size: 2.5rem;
+    }
 }
+
+@media (max-width: 480px) {
+    .branding-banner {
+        height: 200px;
+        
+    }
+
+    .branding-banner-image {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .branding-banner-heading {
+        top: 50%;
+        right: 5%; 
+        padding: 5px 10px;
+        transform: translateY(-50%);
+    }
+
+    .branding-banner-heading h1 {
+        font-size: 1.5rem;
+    }
 }
-    
-/* custom button styles */
-.btn-custom {
-    border-radius: 20px;
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color:#1d0343;
-    color:rgb(251, 250, 250);
+.project-scope-image {
+    width: 100%;
+    height: auto;
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+.paragraph{
     font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+
+
+}
+.custom-mockup{
+    max-width: 75%; 
+    height: auto;
+    margin: 0 auto; 
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); 
+}
+.branding-banner-2{
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    overflow: hidden;
+    text-align: center;
+    background-color: #f9eedf;
 }
 
-.btn-custom:hover {
-    background-color:#f6e6b9;
-    color: #1a023c;
+
+
+.poster-heading {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    
 }
-/* navbar styles */
-.navbar-toggler{
-    color: bisque;
-    background-color: #FDF6ED;
+/* main.css */
+
+/* main.css */
+
+.custom-h3 {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold; /* Make the subheading bold */
+    margin-bottom: 2rem;
 }
-/* footer styles */
-.footer{
-    background-color: #323B60;
-    color: #FDF6ED
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-h1{
-    background-color: #323B60;
-    color: #FDF6ED;
+
+.image-container {
+    max-width: 600px; /* Adjust max width as needed */
+    width: 100%;
+    margin-right: 15px; /* Space between image and button */
 }
-/* adding custom background color to about-container */
-.about-container{
-    background-color: #FDF6ED;
+
+.img-fluid {
+    width: 100%;
+    height: auto;
 }
-/* changing animation duration */
-.animate__animated animate__fadeIn{
-    animation-duration: 0.5s;
-    animation-delay: 5s;
+
+/************ux page styles************/
+.ux-banner {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    overflow: hidden;
+    text-align: center;
+   
 }
-/* styles for skip link */
-.skip-link {
+
+.ux-banner-image {
+    width: 60%;
+    height: 100%;
+    
+}
+
+.ux-banner-heading {
     position: absolute;
-    left: 48%;
-    padding: 5px 5px;
-    font-size: 1rem;
-    background-color:#323B60;
-    color:#FDF6ED;
-    text-decoration: none;
+    top: 50%;
+    right: 60%; 
+    transform: translateX(-50%);
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.ux-banner-heading h1 {
+    color: wheat;
+    margin: 0;
+    font-size: 3.5rem; 
+}
+/* Responsive styles */
+@media (max-width: 768px) {
+    .ux-banner {
+        height: 300px;
+        
+    }
+
+    .ux-banner-image {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .ux-banner-heading {
+        top: 40%;
+        right: 10%; 
+        padding: 5px 10px;
+    }
+
+    .ux-banner-heading h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .ux-banner {
+        height: 200px;
+        
+    }
+
+    .ux-banner-image {
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .ux-banner-heading {
+        top: 50%;
+        right: 5%; 
+        padding: 5px 10px;
+        transform: translateY(-50%);
+    }
+
+    .ux-banner-heading h1 {
+        font-size: 1.5rem;
+    }
+}
+.prototype-image {
+    width: 80%; /* Ensure images are responsive and occupy full width */
+    height: 50px; /* Maintain aspect ratio */
+    max-height: 500px; 
+    object-fit: cover; 
+}
+
+@media (max-width: 576px) {
+    .prototype-image {
+        max-width: 100%; /* Ensure images stay full width on smaller screens */
+        margin: 0 auto; /* Center images */
+        width: 100%;
+    }
+}
+/********************petcare********************/
+
+.line-break {
+    width: 100%;
+    height: 3px; 
+    background: linear-gradient(to right, transparent, #000, transparent); 
+    margin: 50px 0; 
+}
+.pc-banner {
+    position: relative;
+    width: 100%; 
+}
+.project-scope-petcare {
+    position: relative;
+    padding: 20px;
+    background: rgba(249, 249, 249, 0.8); /* Light background with opacity */
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    margin: 50px 0; /* Add some spacing around the section */
+}
+
+.project-scope-petcare::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/dog.jpeg') no-repeat center center; /* Add your background image */
+    background-size: cover;
+    opacity: 0.5; /* Adjust opacity for the background image */
+    z-index: 1;
+    border-radius: 10px; /* Match the border-radius of the .project-scope-unique */
+}
+
+.project-scope-petcare p, .project-scope-petcare h2 {
+    position: relative;
+    z-index: 2; /* Ensure the text is above the background image */
+    color: #0b0000; /* Adjust text color for readability */
+}
+
+.custom-h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.paragraph {
+    text-align: justify;
+}
+.planning-process-section {
+    position: relative;
+    padding: 20px;
+    background: rgba(249, 249, 249, 0.8); /* Light background with opacity */
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    margin: 50px 0; /* Add some spacing around the section */
+}
+
+.planning-process-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/cat.jpeg') no-repeat center center; /* Add your background image */
+    background-size: cover;
+    opacity: 0.5; /* Adjust opacity for the background image */
+    z-index: 1;
+    border-radius: 10px; /* Match the border-radius of the .project-scope-unique */
+}
+
+.planning-process-section p, .planning-process-section h2 {
+    position: relative;
+    z-index: 2; /* Ensure the text is above the background image */
+    color: #0c0000; /* Adjust text color for readability */
+}
+
+.planning-process-h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem; /* Default font size */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767.98px) {
+    .planning-process-h2 {
+        font-size: 1.75rem; /* Smaller font size for mobile devices */
+    }
+}
+.pc-prototype {
+    position: relative;
+    padding: 20px;
+    background: rgba(249, 249, 249, 0.8); /* Light background with opacity */
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    margin: 50px auto; /* Center the section horizontally */
+    max-width: 2000px; /* Optional: Limit the maximum width */
+    width: 40%;
+    height: 100%;
+}
+
+.prototype-h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem; /* Default font size */
+    color: #1c0101; /* Adjust text color for readability */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 767.98px) {
+    .pc-prototype {
+        width: 100%; /* Adjust width for mobile devices */
+    }
 }
