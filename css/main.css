@@ -20,8 +20,10 @@ body {
 }
 @media (max-width: 600px) {
     .logo-container {
-        text-align: center; /* Center the logo horizontally */
-         /* Add some padding if needed */
+        display: flex;
+        justify-content: center;
+        align-items: center; /* This is optional if you want to center vertically as well */
+        
     }
 
     .logo {
@@ -31,6 +33,7 @@ body {
     }
 }
 /* Custom styles for dropdown on hover */
+
 .navbar-nav .dropdown:hover>.dropdown-menu {
     display: block;
     margin-top: 0; 
@@ -42,9 +45,10 @@ body {
 }
 
 .dropdown-item:hover {
-    background-color: #fde8ba; /* Hover background color */
+    background-color: #88764f; /* Hover background color */
     color: #070707; /* Hover text color */
 }
+
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
