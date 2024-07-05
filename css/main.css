@@ -669,4 +669,10 @@ h1 {
 .custom-gif-1{
     max-width: 60%;
 }
+.motion-graphics{
+    font-size: 2rem; /* Adjust font size as needed */
+        font-weight: bold; /* Make the subheading bold */
+        font-size: 1.5rem;
+        justify-content: center;
+}
 }
