@@ -195,11 +195,12 @@ h1 {
     .custom-button {
         font-size: 20px;
         padding: 10px;
-        color: #0f0600; 
-        text-decoration: none; 
-        border: 2px solid #792108; 
+        color: #0f0600;
+        text-decoration: none;
+        border: 2px solid #792108;
         border-radius: 10px; /* Rounded border corners */
         transition: all 0.3s ease;
+        background-color: transparent !important;
         
     }
     .heading1{
