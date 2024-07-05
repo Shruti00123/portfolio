@@ -1,11 +1,24 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const button = document.querySelector('.custom-button');
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
 
-    button.addEventListener('click', function() {
-        button.classList.add('animate__animated', 'animate__fadeOut');
-        setTimeout(function() {
-            button.classList.remove('animate__fadeOut');
-            button.classList.add('animate__fadeIn');
-        }, 1000); // Adjust the delay to match the animation duration
+    const form = event.target;
+    const formData = new FormData(form);
+
+    fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        if (response.ok) {
+            alert('Thank you for your message!');
+            form.reset();
+        } else {
+            alert('Oops! There was a problem submitting your form');
+        }
+    }).catch(error => {
+        alert('Oops! There was a problem submitting your form');
     });
 });
+
