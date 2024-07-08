@@ -853,3 +853,37 @@ h1 {
 }
    
 
+/* Remove the dropdown arrow */
+#footerDropdown::after {
+    display: none;
+}
+
+/* Show the dropdown on hover */
+.nav-item.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+/* Dropdown menu styling */
+.navbar-nav .dropdown-menu {
+    background-color: #f9eedf; /* Match the banner color */
+    border: 1px solid #cf8838; /* Border color */
+}
+
+/* Dropdown item styling */
+.navbar-nav .dropdown-item {
+    color: #070707; /* Text color */
+}
+
+/* Dropdown item hover styling */
+.navbar-nav .dropdown-item:hover {
+    background-color:#fae3c2;
+    color: #070707; /* Hover text color */
+}
+
+
+
+
+
+
+
