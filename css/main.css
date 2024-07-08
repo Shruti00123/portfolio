@@ -845,6 +845,13 @@ h1 {
     height: auto;
 }
 
-
+/* Responsive styles */
+@media (max-width: 768px) {
+    .project1-description {
+        text-align: center;
+        padding-bottom: 20px;
+        
+    }
+}
    
 
