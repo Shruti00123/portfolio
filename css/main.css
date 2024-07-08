@@ -762,3 +762,89 @@ h1 {
         height: auto;
     }
 }
+
+/**********************web design page**********************/
+
+/* Web Design Banner Section */
+.web-design-banner {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    overflow: hidden;
+}
+
+.web-design-banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.web-design-banner-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the text */
+    text-align: center;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.web-design-banner-heading h1 {
+    color: wheat;
+    margin: 0;
+    font-size: 3.5rem; 
+}
+
+.web-design-banner-heading h3 {
+    margin: 0;
+    font-size: 1.5rem; 
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .web-design-banner {
+        height: 300px;
+    }
+
+    .web-design-banner-heading h1 {
+        font-size: 2.5rem;
+    }
+
+    .web-design-banner-heading h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .web-design-banner {
+        height: 200px;
+    }
+
+    .web-design-banner-heading h1 {
+        font-size: 1.5rem;
+    }
+
+    .web-design-banner-heading h3 {
+        font-size: 0.75rem;
+    }
+}
+
+/* Project 1 Section */
+.project-section {
+    margin: 60px 0;
+}
+
+.project1-description {
+    text-align: left;
+}
+
+.project1-image {
+    width: 100%;
+    height: auto;
+}
+
+
+   
+
