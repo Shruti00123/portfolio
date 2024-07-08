@@ -21,4 +21,19 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         alert('Oops! There was a problem submitting your form');
     });
 });
+document.addEventListener('scroll', function() {
+    const container = document.querySelector('.video-container');
+    const video = document.querySelector('.video-container video');
+    
+    const scrollTop = window.scrollY;  // Updated to use scrollY
+    const containerTop = container.offsetTop;  // Distance of container top from the page top
+    const containerHeight = container.offsetHeight;
+
+    // Check if the video container is in the viewport
+    if (scrollTop > containerTop - window.innerHeight && scrollTop < containerTop + containerHeight) {
+        // Calculate video offset
+        const offset = (scrollTop - containerTop) * 0.5;
+        video.style.transform = `translateY(${offset}px)`;
+    }
+});
 
