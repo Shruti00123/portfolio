@@ -97,12 +97,14 @@ body {
 @media (max-width: 767px) {
     .logo {
         max-height: 80px;
+        max-width: 100px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .logo {
         max-height: 80px;
+        max-width: 80px;
     }
 }
 
