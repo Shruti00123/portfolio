@@ -140,12 +140,7 @@ h1 {
     color: #070707;
 }
 
-.banner-image {
-    height: 500px; /* Adjust height as needed */
-    background-image: url('../images/me.png'); /* Path to your image */
-    background-size: cover;
-    background-position: center;
-}
+
 .red-line {
     border: 0;
     height: 2px;
