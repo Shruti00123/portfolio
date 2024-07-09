@@ -108,6 +108,12 @@ body {
 }
 /* Custom styles for dropdown on hover */
 
+
+
+header{
+    background-color:#f9eedf;
+}
+
 .navbar-nav .dropdown:hover>.dropdown-menu {
     display: block;
     margin-top: 0; 
