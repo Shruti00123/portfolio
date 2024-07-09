@@ -391,8 +391,9 @@ h1 {
 .branding-banner-heading {
     position: absolute;
     top: 50%;
+    
     right: 60%; 
-    transform: translateX(-20%);
+    transform: translateX(-10%);
     color: white; 
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px 20px;
@@ -418,8 +419,9 @@ h1 {
     }
 
     .branding-banner-heading {
-        top: 40%;
-        right: 10%; 
+        top: 80%;
+        right: 0%; 
+        transform: translate(-50%, -50%);
         padding: 5px 10px;
     }
 
@@ -452,7 +454,7 @@ h1 {
     }
 }
 .project-scope-image {
-    width: 100%;
+        width: 100%;
     height: auto;
     max-width: 800px; 
     margin: 0 auto; 
@@ -560,8 +562,9 @@ h1 {
     }
 
     .ux-banner-heading {
-        top: 40%;
-        right: 10%; 
+        top: 80%;
+        right: 0%; 
+        transform: translate(-50%, -50%);
         padding: 5px 10px;
     }
 
@@ -583,16 +586,26 @@ h1 {
     }
 
     .ux-banner-heading {
-        top: 50%;
-        right: 5%; 
+        top: 80%;
+        right: 0%; 
+        transform: translate(-50%, -50%);
         padding: 5px 10px;
-        transform: translateY(-50%);
     }
 
     .ux-banner-heading h1 {
         font-size: 1.5rem;
     }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ux-banner-heading {
+        top: 80%;
+        right:10%; 
+        transform: translate(-50%, -50%);
+        padding: 5px 10px;
+    }
+}
+
 .prototype-image {
     width: 80%; /* Ensure images are responsive and occupy full width */
     height: 50px; /* Maintain aspect ratio */
