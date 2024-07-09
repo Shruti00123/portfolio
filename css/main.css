@@ -14,12 +14,16 @@ body {
 }
 .banner-image {
     background-repeat: no-repeat;
+   
 }
 
+
 @media (max-width: 768px) {
+    
     .banner-image img {
         width: 100%;
-        height: auto;
+       
+        height:auto;
     }
 }
 
@@ -388,7 +392,7 @@ h1 {
     position: absolute;
     top: 50%;
     right: 60%; 
-    transform: translateX(-50%);
+    transform: translateX(-20%);
     color: white; 
     background-color: rgba(0, 0, 0, 0.5); 
     padding: 10px 20px;
