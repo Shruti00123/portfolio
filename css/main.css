@@ -426,7 +426,7 @@ h1 {
     }
 
     .branding-banner-heading h1 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -569,7 +569,7 @@ h1 {
     }
 
     .ux-banner-heading h1 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -586,9 +586,9 @@ h1 {
     }
 
     .ux-banner-heading {
-        top: 80%;
-        right: 0%; 
-        transform: translate(-50%, -50%);
+        top: 50%;
+        right: 5%; 
+        transform: translateY(-50%);
         padding: 5px 10px;
     }
 
@@ -597,14 +597,7 @@ h1 {
     }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-    .ux-banner-heading {
-        top: 80%;
-        right:0%; 
-        transform: translate(-50%, -50%);
-        padding: 5px 10px;
-    }
-}
+
 
 .prototype-image {
     width: 80%; /* Ensure images are responsive and occupy full width */
