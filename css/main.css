@@ -19,11 +19,13 @@ body {
 
 
 @media (max-width: 768px) {
-    
-    .banner-image img {
+    .banner-image {
         width: 100%;
-       
-        height:auto;
+        
+    }
+    .banner-image img {
+        width: 500%;
+    
     }
 }
 
