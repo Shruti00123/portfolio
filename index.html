@@ -27,7 +27,7 @@
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#main" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Work
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,15 +48,19 @@
     </header>
     
             <div class="video-container pb">
+                <div class="down-arrow" onclick="scrollDown()">
+                    &#x25BC;
+                </div>
                 <video playsinline autoplay muted loop id="myVideo">
                     <source src="videos/animation-video.mp4" type="video/mp4">
                 </video>
                 <div class="video-overlay">
                     <h1>Welcome to My Portfolio</h1>
                 </div>
+                
             </div>
       
-    <main class="main-content">
+    <main class="main-content" id="main">
         <div class="container-fluid p-lg-0 p-md-0 p-sm-4">
             <div class="banner position-relative py-5">
                 <div class="row align-items-center">
